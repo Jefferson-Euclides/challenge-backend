@@ -12,7 +12,7 @@ Banco de dados utilizado: Postgres.
 
 Para saber mais sobre a API e seus Endpoints, basta startar a aplicação e acessar a URL do Swagger:
 
-[Swagger Documentation](http://localhost:8080/swagger-ui/#/) 
+http://localhost:8080/swagger-ui/#/ 
 ```
 
 ### Lista de bibliotecas de terceiros utilizadas
