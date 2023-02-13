@@ -21,6 +21,8 @@ public class StudentService {
     public Student findStudent(Long academicRegister) {
         return studentRepository.findById(academicRegister)
                 .orElseThrow(() -> new StudentNotFoundException(academicRegister));
+
+
     }
 
     public void removeStudent(Long academicRegister) {
